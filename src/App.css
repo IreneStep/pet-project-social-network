@@ -1,22 +1,18 @@
-.App {
-  text-align: center;
+.wrapper {
+  margin: 20px 100px 0 100px;
+  display: grid;
+  background-image: linear-gradient(rgba(13, 13, 14, 0.78), rgba(0, 188, 212, 0.78)), url('https://ae01.alicdn.com/kf/HTB1HPRpaPnuK1RkSmFPq6AuzFXaq/marvel-comics-avengers-universe-cinema-Super-hero-backgrounds-High-quality-Computer-print-birthday-backdrops.jpg');
+  height: 100vh;
+  grid-template-rows: 150px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-template-areas: 
+  'h h'
+  'n c';
 }
 
-.App-logo {
-  height: 40vmin;
+.wrapper-content {
+  grid-area: c;
+  background-color: beige;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #09d3ac;
-}

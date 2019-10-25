@@ -1,0 +1,9 @@
+
+
+.background {
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(rgba(13, 13, 14, 0.78), rgba(8, 17, 19, 0.78)),url('https://assets1.ignimgs.com/2016/10/11/rsz1stl019978jpg-f47cb2.jpg?width=1200');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
